@@ -4,6 +4,7 @@ import plotly.express as px
 
 # Page setup
 st.set_page_config(page_title= "Sales Dashboard", page_icon=":bar_chart:", layout="wide")
+st.header("CRAIGLIST ANALYTICS")
 
 @st.cache_data
 def load_data():
